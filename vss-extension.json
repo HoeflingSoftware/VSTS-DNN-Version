@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
 	"id": "sample-extension",
-	"version": "0.0.5",
+	"version": "0.0.8",
 	"name": "DNN Module Set Version",
 	"description": "A VSTS Build extension that will set the version number of a DNN (DotNetNuke) Module",
 	"publisher": "ahoefling",
@@ -39,7 +39,7 @@
 			"path": "images/logo.png", "addressable": true
 		},
 		{
-			"path": "buildtask"
+			"path": "buildtask", "addressable": true
 		}
 	]
 }

@@ -32,7 +32,7 @@
             "name": "moduleVersion",
             "type": "string",
             "label": "Module Version",
-            "defaultValue": "0.0.1",
+            "defaultValue": "$(Build.BuildNumber)",
             "required": false,
             "helpMarkDown": "Provide the module version. The module version must be in the format #.#.#, if it is not in this format the task will fail."
         }

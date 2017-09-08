@@ -40,7 +40,7 @@
             "type": "string",
             "label": "Module Version",
             "defaultValue": "$(Build.BuildNumber)",
-            "required": false,
+            "required": true,
             "helpMarkDown": "Provide the module version. The module version must be in the format #.#.#, if it is not in this format the task will fail."
         }
     ],

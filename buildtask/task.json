@@ -16,7 +16,7 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 15
+        "Patch": 16
     },
     "instanceNameFormat": "Set DNN Module Version Number",
     "groups": [

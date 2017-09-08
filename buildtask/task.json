@@ -4,14 +4,14 @@
     "friendlyName": "DNN Module Set Version",
     "description": "Sets the DNN Module Version before the build executes",
     "helpMarkDown": "",
-    "category": "Utility",
+    "category": "Build",
     "author": "Andrew Hoefling",
     "version": {
         "Major": 0,
         "Minor": 0,
         "Patch": 1
     },
-    "instanceNameFormat": "Echo $(samplestring)",
+    "instanceNameFormat": "Set DNN Module Version Number",
     "groups": [
         {
             "name": "advanced",
@@ -24,7 +24,7 @@
             "name": "sourceDirectory",
             "type": "filePath",
             "label": "Source Directory",
-            "defaultValue": "$(Build.SourcesDirectory",
+            "defaultValue": "$(Build.SourcesDirectory)",
             "required": true,
             "helpMarkDown": "Source directory where the manifest file *.dnn is located. This directory can be root since the task will recursively search and update all *.dnn manifest files"
         },

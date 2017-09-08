@@ -3,8 +3,6 @@ param()
 
 Trace-VstsEnteringInvocation $MyInvocation
 try {
-    Import-VstsLocStrings "$PSScriptRoot\buildtask\task.json"
-
     # Get inputs.
     $input_source = Get-VstsInput -Name 'sourceDirectory' -Require
     $input_version = Get-VstsInput -Name 'moduleVersion' -Require
@@ -19,7 +17,7 @@ try {
 
     $xml.Save($input_source)   
 
-    Write-Host "Hello World" 
+    Write-Host "Version number updated in manifest file" 
 
     # Fail if any errors.
     # if ($failed) {

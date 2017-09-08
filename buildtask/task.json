@@ -5,6 +5,13 @@
     "description": "Sets the DNN Module Version before the build executes",
     "helpMarkDown": "",
     "category": "Build",
+    "visibility": [
+        "Build"
+    ],
+    "runsOn": [
+        "Agent",
+        "DeploymentGroup"
+    ],
     "author": "Andrew Hoefling",
     "version": {
         "Major": 0,

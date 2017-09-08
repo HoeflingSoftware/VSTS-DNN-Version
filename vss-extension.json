@@ -16,15 +16,12 @@
 	"contributions": [
 		{
 			"id": "ahoefling.SetVersionDNN",
-			"type": "ms.vss-web.hub",
-			"description": "Adds a 'Hello' hub to the Work hub group.",
+			"type": "ms.vss-distributed-task.task",
 			"targets": [
-				"ms.vss-work-web.work-hub-group"
+				"ms.vss-distributed-task.tasks"
 				],
 			"properties": {
-				"name": "Hello",
-				"order": 99,
-				"uri": "hello-world.html"
+				"name": "buildtask"
 			}
 		}
 	],
@@ -43,6 +40,9 @@
 		},
 		{
 			"path": "images/logo.png", "addressable": true
+		},
+		{
+			"path": "buildtask"
 		}
 	]
 }

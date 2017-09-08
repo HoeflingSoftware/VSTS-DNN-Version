@@ -1,9 +1,9 @@
 {
 	"manifestVersion": 1,
 	"id": "sample-extension",
-	"version": "0.1.0",
-	"name": "My first sample extension",
-	"description": "A sample Visual Studio Services extension.",
+	"version": "0.0.1",
+	"name": "DNN Module Set Version",
+	"description": "A VSTS Build extension that will set the version number of a DNN (DotNetNuke) Module",
 	"publisher": "ahoefling",
 	"targets": [
 		{
@@ -15,7 +15,7 @@
 	 },
 	"contributions": [
 		{
-			"id": "Fabrikam.HelloWorld",
+			"id": "ahoefling.SetVersionDNN",
 			"type": "ms.vss-web.hub",
 			"description": "Adds a 'Hello' hub to the Work hub group.",
 			"targets": [

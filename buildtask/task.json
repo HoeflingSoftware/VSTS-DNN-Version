@@ -16,7 +16,7 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 8
+        "Patch": 15
     },
     "instanceNameFormat": "Set DNN Module Version Number",
     "groups": [
@@ -49,7 +49,8 @@
             "target": "powershell.ps1",
             "platforms": [
                 "windows"
-            ]
+            ],
+            "workingDirectory": "$(currentDirectory)"
         }
     }
 }

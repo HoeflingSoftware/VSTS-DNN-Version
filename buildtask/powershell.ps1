@@ -17,7 +17,9 @@ try {
     $nodes = $xml.SelectNodes("/dotnetnuke/packages/package")
     $nodes.SetAttribute("version", $input_version)
 
-    $xml.Save($input_source)    
+    $xml.Save($input_source)   
+
+    Write-Host "Hello World" 
 
     # Fail if any errors.
     # if ($failed) {

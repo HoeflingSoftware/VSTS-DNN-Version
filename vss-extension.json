@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
-	"id": "sample-extension",
-	"version": "0.0.8",
+	"id": "SetVersionDNN",
+	"version": "0.0.15",
 	"name": "DNN Module Set Version",
 	"description": "A VSTS Build extension that will set the version number of a DNN (DotNetNuke) Module",
 	"publisher": "ahoefling",
@@ -11,7 +11,7 @@
 			}
 		],
 	"icons": {
-		"default": "images/logo.png"
+		"default": "icon.png"
 	 },
 	"contributions": [
 		{
@@ -19,27 +19,15 @@
 			"type": "ms.vss-distributed-task.task",
 			"targets": [
 				"ms.vss-distributed-task.tasks"
-				],
+			],
 			"properties": {
 				"name": "buildtask"
 			}
 		}
 	],
-	"scopes": [
-		"vso.build_execute"
-	],
-	"files": [
+	"files":[
 		{
-			"path": "scripts", "addressable": true
-		},
-		{
-			"path": "sdk/scripts", "addressable": true
-		},
-		{
-			"path": "images/logo.png", "addressable": true
-		},
-		{
-			"path": "buildtask", "addressable": true
+			"path": "buildtask"			
 		}
 	]
 }

@@ -5,7 +5,7 @@ The task is designed to version your DNN Modules automatically instead of requir
 Windows
 
 # Pre-Release #
-The task is in Pre-Release right now and current has the following features
+The task is in Pre-Release right now and currently has the following features
 
 * Update DNN manifest at exact specified location
 * Recursively search for all DNN Manifest files and update version

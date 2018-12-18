@@ -13,4 +13,4 @@ The task is in Pre-Release right now and currently has the following features
 # Issues #
 If you have issues with the task or would like to log a bug head to the github repo 
 
-[https://github.com/ahoefling/VSTS-DNN-Version](https://github.com/ahoefling/VSTS-DNN-Version)
+[https://github.com/HoeflingSoftware/VSTS-DNN-Version](https://github.com/HoeflingSoftware/VSTS-DNN-Version)
